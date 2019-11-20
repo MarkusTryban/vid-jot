@@ -1,0 +1,19 @@
+{
+  "name": "vid-jot",
+  "version": "1.0.0",
+  "description": "Create video ideas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkusTryban/vid-jot.git"
+  },
+  "author": "Markus Tryban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkusTryban/vid-jot/issues"
+  },
+  "homepage": "https://github.com/MarkusTryban/vid-jot#readme"
+}
