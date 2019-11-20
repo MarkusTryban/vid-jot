@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MarkusTryban/vid-jot/issues"
   },
-  "homepage": "https://github.com/MarkusTryban/vid-jot#readme"
+  "homepage": "https://github.com/MarkusTryban/vid-jot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
