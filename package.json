@@ -11,7 +11,7 @@
     "url": "git+https://github.com/MarkusTryban/vid-jot.git"
   },
   "author": "Markus Tryban",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MarkusTryban/vid-jot/issues"
   },
