@@ -18,5 +18,9 @@
   "homepage": "https://github.com/MarkusTryban/vid-jot#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "prettier": "^1.19.1"
   }
 }
