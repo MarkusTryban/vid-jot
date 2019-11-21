@@ -7,7 +7,7 @@ App.get('/', (req, res) => {
   res.send('INDEX');
 });
 
-//About route
+// About route
 App.get('/about', (req, res) => {
   res.send('ABOUT');
 });
