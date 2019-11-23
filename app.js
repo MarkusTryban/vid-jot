@@ -6,7 +6,8 @@ const app = express();
 
 mongoose
   .connect('mongodb://localhost/vidjot-dev', {
-    useMongoClient: true
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   })
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err));
