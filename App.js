@@ -1,7 +1,14 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
+const mongoose = require('mongoose');
 
 const app = express();
+
+mongoose
+  .connect('mongodb://localhost/vidjot-dev', {
+    useMongoClient: true
+  })
+  .then(() => console.log('MongoDB Connected...'));
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
