@@ -23,7 +23,6 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Index route
 app.get('/', (req, res) => {
   const title = 'Welcome';
   res.render('index', {
@@ -31,7 +30,6 @@ app.get('/', (req, res) => {
   });
 });
 
-// About route
 app.get('/about', (req, res) => {
   res.render('about');
 });
