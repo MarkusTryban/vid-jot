@@ -39,6 +39,7 @@ app.get('/ideas/add', (req, res) => {
 });
 
 app.post('/ideas', (req, res) => {
+  console.log(req.body);
   res.send('ok');
 });
 
